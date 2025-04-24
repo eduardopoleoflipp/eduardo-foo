@@ -10,7 +10,7 @@ var fooCmd = &cobra.Command{
 	Use:   "foo",
 	Short: "Prints hello world",
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("hello world")
+		fmt.Println("hello world again")
 	},
 }
 
