@@ -1,7 +1,11 @@
+# .goreleaser.yml
+version: 2
+
 project_name: eduardo-foo
 
 builds:
-  - binary: eduardo-foo
+  - id: eduardo-foo
+    binary: eduardo-foo
     goos:
       - linux
       - darwin
